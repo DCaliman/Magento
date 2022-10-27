@@ -583,16 +583,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.3.3",
+            "version": "1.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "30897edbfb15e784fe55587b4f73ceefd3c4d98c"
+                "reference": "69098eca243998b53eed7a48d82dedd28b447cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/30897edbfb15e784fe55587b4f73ceefd3c4d98c",
-                "reference": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/69098eca243998b53eed7a48d82dedd28b447cd5",
+                "reference": "69098eca243998b53eed7a48d82dedd28b447cd5",
                 "shasum": ""
             },
             "require": {
@@ -650,7 +650,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-20T07:14:26+00:00"
+            "time": "2022-10-12T12:08:29+00:00"
         },
         {
             "name": "composer/composer",
@@ -1406,23 +1406,23 @@
         },
         {
             "name": "ezimuel/guzzlestreams",
-            "version": "3.0.1",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezimuel/guzzlestreams.git",
-                "reference": "abe3791d231167f14eb80d413420d1eab91163a8"
+                "reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/abe3791d231167f14eb80d413420d1eab91163a8",
-                "reference": "abe3791d231167f14eb80d413420d1eab91163a8",
+                "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/b4b5a025dfee70d6cd34c780e07330eb93d5b997",
+                "reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~9.0"
             },
             "type": "library",
             "extra": {
@@ -1452,20 +1452,20 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2020-02-14T23:11:50+00:00"
+            "time": "2022-10-24T12:58:50+00:00"
         },
         {
             "name": "ezimuel/ringphp",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezimuel/ringphp.git",
-                "reference": "92b8161404ab1ad84059ebed41d9f757e897ce74"
+                "reference": "8d00384f9e5c04713ef8448adf47824265791b50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/92b8161404ab1ad84059ebed41d9f757e897ce74",
-                "reference": "92b8161404ab1ad84059ebed41d9f757e897ce74",
+                "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/8d00384f9e5c04713ef8448adf47824265791b50",
+                "reference": "8d00384f9e5c04713ef8448adf47824265791b50",
                 "shasum": ""
             },
             "require": {
@@ -1506,20 +1506,20 @@
                 }
             ],
             "description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
-            "time": "2021-11-16T11:51:30+00:00"
+            "time": "2022-10-25T12:54:22+00:00"
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.189",
+            "version": "1.2.190",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "1fc4912a114fd7ffbc6c2edaa189682ece7c5305"
+                "reference": "ccae8cb3370460b9b1499db30c45842e75ee54ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/1fc4912a114fd7ffbc6c2edaa189682ece7c5305",
-                "reference": "1fc4912a114fd7ffbc6c2edaa189682ece7c5305",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/ccae8cb3370460b9b1499db30c45842e75ee54ad",
+                "reference": "ccae8cb3370460b9b1499db30c45842e75ee54ad",
                 "shasum": ""
             },
             "require": {
@@ -1528,7 +1528,7 @@
                 "magento/module-config": ">=101.1.0",
                 "magento/module-page-cache": ">=100.3.0",
                 "magento/module-store": ">=101.0.0",
-                "php": "~7.1.3|~7.2.0|~7.3.0|~7.4.0|~8.0.0|~8.1.0",
+                "php": "~7.1.3|~7.2.0|~7.3.0|~7.4.0|~8.0.0|~8.1.0|~8.2.0",
                 "zordius/lightncandy": "^1.2"
             },
             "type": "magento2-module",
@@ -1545,7 +1545,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.3.x | 2.4.x",
-            "time": "2022-09-23T14:45:51+00:00"
+            "time": "2022-10-26T15:12:45+00:00"
         },
         {
             "name": "google/recaptcha",
@@ -5016,11 +5016,11 @@
         },
         {
             "name": "magento/ece-tools",
-            "version": "2002.1.12",
+            "version": "2002.1.13",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/ece-tools/magento-ece-tools-2002.1.12.0.zip",
-                "shasum": "eaf47153ebb8339784ff07afc6da4c933971856c"
+                "url": "https://repo.magento.com/archives/magento/ece-tools/magento-ece-tools-2002.1.13.0.zip",
+                "shasum": "a7fd2f20339eece5aff501f96527e3e18a267c20"
             },
             "require": {
                 "colinmollenhour/credis": "^1.6.0",
@@ -5034,7 +5034,7 @@
                 "illuminate/config": "^5.5||^8.77",
                 "magento/magento-cloud-components": "^1.0.8",
                 "magento/magento-cloud-docker": "^1.0.0",
-                "magento/magento-cloud-patches": "^1.0.11",
+                "magento/magento-cloud-patches": "^1.0.20",
                 "magento/quality-patches": "^1.1.0",
                 "monolog/monolog": "^1.25 || ^2.3",
                 "nesbot/carbon": "^1.0 || ^2.0",
@@ -5582,11 +5582,11 @@
         },
         {
             "name": "magento/magento-cloud-docker",
-            "version": "1.3.3",
+            "version": "1.3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-docker/magento-magento-cloud-docker-1.3.3.0.zip",
-                "shasum": "3844f7b281844b0da1451b69d2864601605073fd"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-docker/magento-magento-cloud-docker-1.3.4.0.zip",
+                "shasum": "cea70c770b2a66ea4d56ff2c62988f1a226e0700"
             },
             "require": {
                 "composer/composer": "^1.4 || ^2.0",
@@ -5700,11 +5700,11 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.19",
+            "version": "1.0.20",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.19.0.zip",
-                "shasum": "6ccbf53012d85a7193c57c15c14afc54d516b90c"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.20.0.zip",
+                "shasum": "5193b010ff19542c43034bf1e265803aae1a5e4c"
             },
             "require": {
                 "composer/composer": "@stable",
@@ -18018,11 +18018,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.21",
+            "version": "1.1.22",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.21.0.zip",
-                "shasum": "cad6431cfb6402c0e25ba4b24950538da864411d"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.22.0.zip",
+                "shasum": "f745031d0170d4d88a47d8dfac6d07312a55bab1"
             },
             "require": {
                 "ext-json": "*",
@@ -18940,16 +18940,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.38",
+            "version": "2.0.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "b03536539f43a4f9aa33c4f0b2f3a1c752088fcd"
+                "reference": "f3a0e2b715c40cf1fd270d444901b63311725d63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/b03536539f43a4f9aa33c4f0b2f3a1c752088fcd",
-                "reference": "b03536539f43a4f9aa33c4f0b2f3a1c752088fcd",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f3a0e2b715c40cf1fd270d444901b63311725d63",
+                "reference": "f3a0e2b715c40cf1fd270d444901b63311725d63",
                 "shasum": ""
             },
             "require": {
@@ -19042,7 +19042,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-02T17:04:26+00:00"
+            "time": "2022-10-24T10:49:03+00:00"
         },
         {
             "name": "psr/container",
@@ -19683,16 +19683,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.4.45",
+            "version": "v4.4.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "28b77970939500fb04180166a1f716e75a871ef8"
+                "reference": "4f40012db8d55c956406890b5720f686fee7f7b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/28b77970939500fb04180166a1f716e75a871ef8",
-                "reference": "28b77970939500fb04180166a1f716e75a871ef8",
+                "url": "https://api.github.com/repos/symfony/console/zipball/4f40012db8d55c956406890b5720f686fee7f7b7",
+                "reference": "4f40012db8d55c956406890b5720f686fee7f7b7",
                 "shasum": ""
             },
             "require": {
@@ -19766,7 +19766,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-17T14:50:19+00:00"
+            "time": "2022-10-04T05:58:30+00:00"
         },
         {
             "name": "symfony/css-selector",
