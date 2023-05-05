@@ -1548,16 +1548,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.198",
+            "version": "1.2.199",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "9e05f730c2f46a7978c22f7556f0f1219451d207"
+                "reference": "bdf5bd24a61d3327b0ec7287787f65f2dd4f4cba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/9e05f730c2f46a7978c22f7556f0f1219451d207",
-                "reference": "9e05f730c2f46a7978c22f7556f0f1219451d207",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/bdf5bd24a61d3327b0ec7287787f65f2dd4f4cba",
+                "reference": "bdf5bd24a61d3327b0ec7287787f65f2dd4f4cba",
                 "shasum": ""
             },
             "require": {
@@ -1584,7 +1584,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.4.x",
-            "time": "2023-04-08T01:01:47+00:00"
+            "time": "2023-04-27T02:58:22+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
@@ -20321,11 +20321,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.30",
+            "version": "1.1.31",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.30.0.zip",
-                "shasum": "7727335854139a8f927017393a86ec1844419b16"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.31.0.zip",
+                "shasum": "da2900742b62d29c90bc694a11a74186d28e1647"
             },
             "require": {
                 "ext-json": "*",
@@ -20857,16 +20857,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v1.19.0",
+            "version": "v1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "cb15e403ecbe6a6cc515f855c310eb6b1872a933"
+                "reference": "e592a3e06d1fa0d43988c7c7d9948ca836f644b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/cb15e403ecbe6a6cc515f855c310eb6b1872a933",
-                "reference": "cb15e403ecbe6a6cc515f855c310eb6b1872a933",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/e592a3e06d1fa0d43988c7c7d9948ca836f644b6",
+                "reference": "e592a3e06d1fa0d43988c7c7d9948ca836f644b6",
                 "shasum": ""
             },
             "require": {
@@ -20935,7 +20935,7 @@
                 "secret-key cryptography",
                 "side-channel resistant"
             ],
-            "time": "2022-09-26T03:40:35+00:00"
+            "time": "2023-04-30T00:54:53+00:00"
         },
         {
             "name": "paypal/module-braintree",
@@ -21790,23 +21790,23 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.9.0",
+            "version": "v2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "234f8fd1023c9158e2314fa9d7d0e6a83db42910"
+                "reference": "f913fb8cceba1e6644b7b90c4bfb678ed8a3ef38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/234f8fd1023c9158e2314fa9d7d0e6a83db42910",
-                "reference": "234f8fd1023c9158e2314fa9d7d0e6a83db42910",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/f913fb8cceba1e6644b7b90c4bfb678ed8a3ef38",
+                "reference": "f913fb8cceba1e6644b7b90c4bfb678ed8a3ef38",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.36"
+                "phpunit/phpunit": "^9.5 || ^5.7 || ^4.8.36"
             },
             "type": "library",
             "autoload": {
@@ -21850,15 +21850,11 @@
             ],
             "funding": [
                 {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/clue",
-                    "type": "github"
+                    "url": "https://opencollective.com/reactphp",
+                    "type": "open_collective"
                 }
             ],
-            "time": "2022-02-11T10:27:51+00:00"
+            "time": "2023-05-02T15:15:43+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -22263,16 +22259,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.4.22",
+            "version": "v5.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "e1b7c1432efb4ad1dd89d62906187271e2601ed9"
+                "reference": "bb7b7988c898c94f5338e16403c52b5a3cae1d93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/e1b7c1432efb4ad1dd89d62906187271e2601ed9",
-                "reference": "e1b7c1432efb4ad1dd89d62906187271e2601ed9",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/bb7b7988c898c94f5338e16403c52b5a3cae1d93",
+                "reference": "bb7b7988c898c94f5338e16403c52b5a3cae1d93",
                 "shasum": ""
             },
             "require": {
@@ -22345,7 +22341,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-10T10:02:45+00:00"
+            "time": "2023-04-21T15:04:16+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -22570,16 +22566,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.4.21",
+            "version": "v5.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "e75960b1bbfd2b8c9e483e0d74811d555ca3de9f"
+                "reference": "b2f79d86cd9e7de0fff6d03baa80eaed7a5f38b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/e75960b1bbfd2b8c9e483e0d74811d555ca3de9f",
-                "reference": "e75960b1bbfd2b8c9e483e0d74811d555ca3de9f",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/b2f79d86cd9e7de0fff6d03baa80eaed7a5f38b5",
+                "reference": "b2f79d86cd9e7de0fff6d03baa80eaed7a5f38b5",
                 "shasum": ""
             },
             "require": {
@@ -22627,7 +22623,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-14T08:03:56+00:00"
+            "time": "2023-03-02T11:38:35+00:00"
         },
         {
             "name": "symfony/finder",
@@ -23601,16 +23597,16 @@
         },
         {
             "name": "symfony/property-info",
-            "version": "v5.4.22",
+            "version": "v5.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-info.git",
-                "reference": "8454a441d117449abd0d61124e68f93f927ad5ba"
+                "reference": "ff45ebbfd781eab2571d9d4412d82a9a733fc2b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-info/zipball/8454a441d117449abd0d61124e68f93f927ad5ba",
-                "reference": "8454a441d117449abd0d61124e68f93f927ad5ba",
+                "url": "https://api.github.com/repos/symfony/property-info/zipball/ff45ebbfd781eab2571d9d4412d82a9a733fc2b3",
+                "reference": "ff45ebbfd781eab2571d9d4412d82a9a733fc2b3",
                 "shasum": ""
             },
             "require": {
@@ -23685,7 +23681,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-14T14:59:20+00:00"
+            "time": "2023-04-17T14:20:34+00:00"
         },
         {
             "name": "symfony/proxy-manager-bridge",
