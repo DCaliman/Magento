@@ -322,16 +322,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.293.5",
+            "version": "3.296.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f2002e52b382b45231da3f9552033f769acfebd8"
+                "reference": "38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f2002e52b382b45231da3f9552033f769acfebd8",
-                "reference": "f2002e52b382b45231da3f9552033f769acfebd8",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b",
+                "reference": "38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b",
                 "shasum": ""
             },
             "require": {
@@ -408,7 +408,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2023-12-06T19:09:15+00:00"
+            "time": "2024-01-14T05:20:33+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -569,16 +569,16 @@
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
-                "reference": "67a77972b9f398ae7068dabacc39c08aeee170d5"
+                "reference": "99f76ffa36cce3b70a4a6abce41dba15ca2e84cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/67a77972b9f398ae7068dabacc39c08aeee170d5",
-                "reference": "67a77972b9f398ae7068dabacc39c08aeee170d5",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/99f76ffa36cce3b70a4a6abce41dba15ca2e84cb",
+                "reference": "99f76ffa36cce3b70a4a6abce41dba15ca2e84cb",
                 "shasum": ""
             },
             "require": {
@@ -630,7 +630,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-01T14:29:01+00:00"
+            "time": "2023-12-11T17:09:12+00:00"
         },
         {
             "name": "christian-riesen/base32",
@@ -843,16 +843,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.3.7",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "76e46335014860eec1aa5a724799a00a2e47cc85"
+                "reference": "b66d11b7479109ab547f9405b97205640b17d385"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/76e46335014860eec1aa5a724799a00a2e47cc85",
-                "reference": "76e46335014860eec1aa5a724799a00a2e47cc85",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/b66d11b7479109ab547f9405b97205640b17d385",
+                "reference": "b66d11b7479109ab547f9405b97205640b17d385",
                 "shasum": ""
             },
             "require": {
@@ -864,7 +864,7 @@
                 "phpstan/phpstan": "^0.12.55",
                 "psr/log": "^1.0",
                 "symfony/phpunit-bridge": "^4.2 || ^5",
-                "symfony/process": "^2.5 || ^3.0 || ^4.0 || ^5.0 || ^6.0"
+                "symfony/process": "^2.5 || ^3.0 || ^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "type": "library",
             "extra": {
@@ -910,7 +910,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-30T09:31:38+00:00"
+            "time": "2023-12-18T12:05:55+00:00"
         },
         {
             "name": "composer/composer",
@@ -1801,16 +1801,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.210",
+            "version": "1.2.211",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "32166f9fd7ba16addfb296063540309223d53da4"
+                "reference": "e8dfde55ddba299eeb428c87e7a927138e50f3ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/32166f9fd7ba16addfb296063540309223d53da4",
-                "reference": "32166f9fd7ba16addfb296063540309223d53da4",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/e8dfde55ddba299eeb428c87e7a927138e50f3ff",
+                "reference": "e8dfde55ddba299eeb428c87e7a927138e50f3ff",
                 "shasum": ""
             },
             "require": {
@@ -1820,7 +1820,7 @@
                 "magento/module-config": ">=101.2.0",
                 "magento/module-page-cache": ">=100.4.0",
                 "magento/module-store": ">=101.1.0",
-                "php": "~7.3.0|~7.4.0|~8.0.0|~8.1.0|~8.2.0",
+                "php": "~7.3.0|~7.4.0|~8.0.0|~8.1.0|~8.2.0|~8.3.0",
                 "zordius/lightncandy": "^1.2"
             },
             "type": "magento2-module",
@@ -1837,7 +1837,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Fastly CDN Module for Magento 2.4.x",
-            "time": "2023-12-05T21:45:24+00:00"
+            "time": "2024-01-08T16:29:11+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
@@ -5638,11 +5638,11 @@
         },
         {
             "name": "magento/ece-tools",
-            "version": "2002.1.16",
+            "version": "2002.1.17",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/ece-tools/magento-ece-tools-2002.1.16.0.zip",
-                "shasum": "81ee97387f15df2f11c0c3863eaf34d9ced742dc"
+                "url": "https://repo.magento.com/archives/magento/ece-tools/magento-ece-tools-2002.1.17.0.zip",
+                "shasum": "318945547786dac1538c06886906f466761341b4"
             },
             "require": {
                 "colinmollenhour/credis": "^1.6.0",
@@ -6344,11 +6344,11 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.24",
+            "version": "1.0.25",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.24.0.zip",
-                "shasum": "a9ac0c163514a0916aa7262e79bfb3d78fe4baf2"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.25.0.zip",
+                "shasum": "a07b9775e4e1aa34e4c5915eb641cfea5c651fd0"
             },
             "require": {
                 "composer/composer": "^1.4 || ^2.0",
@@ -21417,11 +21417,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.42",
+            "version": "1.1.43",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.42.0.zip",
-                "shasum": "295232bfff06ef65ec1191131da2a319877fc6ce"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.43.0.zip",
+                "shasum": "e0e1cf59d52418714bbb89f72396063ea5612451"
             },
             "require": {
                 "ext-json": "*",
@@ -21811,16 +21811,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.72.0",
+            "version": "2.72.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "a6885fcbad2ec4360b0e200ee0da7d9b7c90786b"
+                "reference": "2b3b3db0a2d0556a177392ff1a3bf5608fa09f78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a6885fcbad2ec4360b0e200ee0da7d9b7c90786b",
-                "reference": "a6885fcbad2ec4360b0e200ee0da7d9b7c90786b",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/2b3b3db0a2d0556a177392ff1a3bf5608fa09f78",
+                "reference": "2b3b3db0a2d0556a177392ff1a3bf5608fa09f78",
                 "shasum": ""
             },
             "require": {
@@ -21909,7 +21909,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-28T10:13:25+00:00"
+            "time": "2023-12-08T23:47:49+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
@@ -22526,16 +22526,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.45",
+            "version": "2.0.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "28d8f438a0064c9de80857e3270d071495544640"
+                "reference": "498e67a0c82bd5791fda9b0dd0f4ec8e8aebb02d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/28d8f438a0064c9de80857e3270d071495544640",
-                "reference": "28d8f438a0064c9de80857e3270d071495544640",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/498e67a0c82bd5791fda9b0dd0f4ec8e8aebb02d",
+                "reference": "498e67a0c82bd5791fda9b0dd0f4ec8e8aebb02d",
                 "shasum": ""
             },
             "require": {
@@ -22628,7 +22628,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-15T20:55:47+00:00"
+            "time": "2023-12-29T01:52:43+00:00"
         },
         {
             "name": "psr/cache",
@@ -23111,16 +23111,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "594fd6462aad8ecee0b45ca5045acea4776667f1"
+                "reference": "76d449a358ece77d6f1d6331c68453e657172202"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/594fd6462aad8ecee0b45ca5045acea4776667f1",
-                "reference": "594fd6462aad8ecee0b45ca5045acea4776667f1",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/76d449a358ece77d6f1d6331c68453e657172202",
+                "reference": "76d449a358ece77d6f1d6331c68453e657172202",
                 "shasum": ""
             },
             "require": {
@@ -23147,7 +23147,7 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
+                    "homepage": "https://seld.be"
                 }
             ],
             "description": "JSON Linter",
@@ -23167,7 +23167,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-11T13:16:46+00:00"
+            "time": "2023-12-18T13:03:25+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -23512,16 +23512,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.4.33",
+            "version": "v5.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "14969a558cd6382b2a12b14b20ef9a851a02da79"
+                "reference": "75d568165a65fa7d8124869ec7c3a90424352e6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/14969a558cd6382b2a12b14b20ef9a851a02da79",
-                "reference": "14969a558cd6382b2a12b14b20ef9a851a02da79",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/75d568165a65fa7d8124869ec7c3a90424352e6c",
+                "reference": "75d568165a65fa7d8124869ec7c3a90424352e6c",
                 "shasum": ""
             },
             "require": {
@@ -23594,7 +23594,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-30T08:15:37+00:00"
+            "time": "2023-12-28T09:31:38+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -25173,16 +25173,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.4.32",
+            "version": "v5.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "91bf4453d65d8231688a04376c3a40efe0770f04"
+                "reference": "e3f98bfc7885c957488f443df82d97814a3ce061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/91bf4453d65d8231688a04376c3a40efe0770f04",
-                "reference": "91bf4453d65d8231688a04376c3a40efe0770f04",
+                "url": "https://api.github.com/repos/symfony/string/zipball/e3f98bfc7885c957488f443df82d97814a3ce061",
+                "reference": "e3f98bfc7885c957488f443df82d97814a3ce061",
                 "shasum": ""
             },
             "require": {
@@ -25252,7 +25252,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-26T13:43:46+00:00"
+            "time": "2023-12-09T13:20:28+00:00"
         },
         {
             "name": "symfony/translation",
