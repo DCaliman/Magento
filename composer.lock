@@ -75,11 +75,11 @@
             "dist": {
                 "type": "zip",
                 "url": "https://connect20-qa01.magedevteam.com/archives/adobe-commerce/extensions-metapackage/adobe-commerce-extensions-metapackage-2.0.0.0-beta303.zip",
-                "shasum": "ed335f3d156e4d2f80b92be6d73d007a0aebc330"
+                "shasum": "9e5061c8b869206beff667e5a82b8d84b70dc302"
             },
             "require": {
-                "adobe-commerce/adobe-ims-metapackage": "^2.2",
-                "magento/adobe-stock-integration": "^2.1",
+                "adobe-commerce/adobe-ims-metapackage": "~2.2.1",
+                "magento/adobe-stock-integration": "~2.1.6",
                 "magento/commerce-backend-sdk": "^1.3",
                 "magento/commerce-eventing": "^1.5",
                 "magento/commerce-webhooks": "^1.2",
@@ -95,11 +95,11 @@
             "dist": {
                 "type": "zip",
                 "url": "https://connect20-qa01.magedevteam.com/archives/adobe-commerce/os-extensions-metapackage/adobe-commerce-os-extensions-metapackage-1.0.0.0-beta303.zip",
-                "shasum": "d4518aa5c45103b2c8e48230cd06332f99d13bfc"
+                "shasum": "3b48516e2f95c15126e4c3b65534b8b92ea74e65"
             },
             "require": {
-                "adobe-commerce/adobe-ims-metapackage": "^2.2",
-                "magento/adobe-stock-integration": "^2.1",
+                "adobe-commerce/adobe-ims-metapackage": "~2.2.1",
+                "magento/adobe-stock-integration": "~2.1.6",
                 "magento/payment-services": "^2.0",
                 "paypal/module-braintree": "~4.6.0"
             },
@@ -202,16 +202,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.300.0",
+            "version": "3.300.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "67a0c22a70bdcc99ca41028b78be3d5496481c14"
+                "reference": "fb67a49453c2b1a51268156b70adeba6c619e743"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/67a0c22a70bdcc99ca41028b78be3d5496481c14",
-                "reference": "67a0c22a70bdcc99ca41028b78be3d5496481c14",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fb67a49453c2b1a51268156b70adeba6c619e743",
+                "reference": "fb67a49453c2b1a51268156b70adeba6c619e743",
                 "shasum": ""
             },
             "require": {
@@ -291,9 +291,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.1"
             },
-            "time": "2024-02-19T19:08:33+00:00"
+            "time": "2024-02-20T19:05:00+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -5394,12 +5394,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:magento-commerce/ece-tools.git",
-                "reference": "82dbd3564b669eaf9fc75e010d4a6e86e528c148"
+                "reference": "b60949d103fd59143101859cb269fc51d940beae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-commerce/ece-tools/zipball/82dbd3564b669eaf9fc75e010d4a6e86e528c148",
-                "reference": "82dbd3564b669eaf9fc75e010d4a6e86e528c148",
+                "url": "https://api.github.com/repos/magento-commerce/ece-tools/zipball/b60949d103fd59143101859cb269fc51d940beae",
+                "reference": "b60949d103fd59143101859cb269fc51d940beae",
                 "shasum": ""
             },
             "require": {
@@ -5422,7 +5422,7 @@
                 "psr/container": "^1.0",
                 "psr/log": "^1.0 || ^2.0 || ^3.0",
                 "symfony/config": "^4.4 || ^5.1 || ^5.4 || ^6.4",
-                "symfony/console": "^6.4",
+                "symfony/console": "^2.8 || ^4.0 || ^5.1 || ^5.4 || ^6.4",
                 "symfony/dependency-injection": "^3.3 || ^4.3 || ^5.1 || ^5.4 || ^6.4",
                 "symfony/process": "^2.1 || ^4.1 || ^5.1 || ^5.4 || ^6.4",
                 "symfony/serializer": "^2.8 || ^3.3 || ^4.0 || ^5.4 || ^6.4",
@@ -5514,7 +5514,7 @@
                 "source": "https://github.com/magento-commerce/ece-tools/tree/MCLOUD-11526",
                 "issues": "https://github.com/magento-commerce/ece-tools/issues"
             },
-            "time": "2024-02-20T17:50:14+00:00"
+            "time": "2024-02-20T19:41:54+00:00"
         },
         {
             "name": "magento/framework",
@@ -6061,12 +6061,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:magento-commerce/magento-cloud-docker.git",
-                "reference": "ef4eb83e263b0696c20398f966d8042e1f815558"
+                "reference": "d38d910b96ed255b3dc861c605859a00abc3bf73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-commerce/magento-cloud-docker/zipball/ef4eb83e263b0696c20398f966d8042e1f815558",
-                "reference": "ef4eb83e263b0696c20398f966d8042e1f815558",
+                "url": "https://api.github.com/repos/magento-commerce/magento-cloud-docker/zipball/d38d910b96ed255b3dc861c605859a00abc3bf73",
+                "reference": "d38d910b96ed255b3dc861c605859a00abc3bf73",
                 "shasum": ""
             },
             "require": {
@@ -6186,7 +6186,7 @@
                 "source": "https://github.com/magento-commerce/magento-cloud-docker/tree/MCLOUD-11659",
                 "issues": "https://github.com/magento-commerce/magento-cloud-docker/issues"
             },
-            "time": "2024-02-20T16:42:52+00:00"
+            "time": "2024-02-20T20:36:04+00:00"
         },
         {
             "name": "magento/magento-cloud-patches",
