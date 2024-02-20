@@ -14,14 +14,48 @@
         }
     },
     "repositories": {
+        "ece-tools": {
+            "type": "vcs",
+            "url": "https://github.com/magento-commerce/ece-tools.git"
+        },
+        "mcc": {
+            "type": "vcs",
+            "url": "https://github.com/magento-commerce/magento-cloud-components.git"
+        },
+        "mcp": {
+            "type": "vcs",
+            "url": "https://github.com/magento-commerce/magento-cloud-patches.git"
+        },
+        "mqp": {
+            "type": "vcs",
+            "url": "https://github.com/magento-commerce/quality-patches.git"
+        },
+        "mcd": {
+            "type": "vcs",
+            "url": "https://github.com/magento-commerce/magento-cloud-docker.git"
+        },
+        "crup": {
+            "type": "vcs",
+            "url": "https://github.com/magento-commerce/composer-root-update-plugin.git"
+        },
+        "connect": {
+            "type": "composer",
+            "url": "https://connect20-qa01.magedevteam.com"
+        },
         "repo": {
             "type": "composer",
             "url": "https://repo.magento.com"
         }
     },
     "require": {
-        "magento/magento-cloud-metapackage": ">=2.4.7 <2.4.8",
-        "magento/composer-root-update-plugin": "^2.0.3"
+        "magento/product-enterprise-edition": ">=2.4.7 <2.4.8",
+        "fastly/magento2": "^1.2.34",
+        "magento/composer-root-update-plugin": "dev-develop as 2.0.99",
+        "magento/ece-tools": "dev-MCLOUD-11526 as 2002.1.99",
+        "magento/magento-cloud-components": "dev-develop as 1.0.99",
+        "magento/magento-cloud-patches": "dev-MCLOUD-11527 as 1.0.99",
+        "magento/quality-patches": "dev-master as 1.1.99",
+        "magento/magento-cloud-docker": "dev-MCLOUD-11659 as 1.3.99"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
