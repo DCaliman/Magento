@@ -16,31 +16,27 @@
     "repositories": {
         "ece-tools": {
             "type": "vcs",
-            "url": "https://github.com/magento-commerce/ece-tools.git"
+            "url": "https://github.com/magento/ece-tools.git"
         },
         "mcc": {
             "type": "vcs",
-            "url": "https://github.com/magento-commerce/magento-cloud-components.git"
+            "url": "https://github.com/magento/magento-cloud-components.git"
         },
         "mcp": {
             "type": "vcs",
-            "url": "https://github.com/magento-commerce/magento-cloud-patches.git"
+            "url": "https://github.com/magento/magento-cloud-patches.git"
         },
         "mqp": {
             "type": "vcs",
-            "url": "https://github.com/magento-commerce/quality-patches.git"
+            "url": "https://github.com/magento/quality-patches.git"
         },
         "mcd": {
             "type": "vcs",
-            "url": "https://github.com/magento-commerce/magento-cloud-docker.git"
+            "url": "https://github.com/magento/magento-cloud-docker.git"
         },
         "crup": {
             "type": "vcs",
-            "url": "https://github.com/magento-commerce/composer-root-update-plugin.git"
-        },
-        "connect": {
-            "type": "composer",
-            "url": "https://connect20-qa01.magedevteam.com"
+            "url": "https://github.com/magento/composer-root-update-plugin.git"
         },
         "repo": {
             "type": "composer",
