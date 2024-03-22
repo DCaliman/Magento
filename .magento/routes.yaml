@@ -9,11 +9,3 @@
 "http://{all}/":
     type: upstream
     upstream: "mymagento:http"
-
-# In order to enable the Application Server on Starter or Integration environment:
-# 1. Ensure that all your AC customizations and extensions are compatible with Application Server.
-# 2. Rename 'application-server/.magento/.magento.app.yaml.sample' to 'application-server/.magento/.magento.app.yaml'.
-# 3. Uncomment the following routes configuration to redirect /graphql traffic to the Application Server.
-#"http://{all}/graphql":
-#    type: upstream
-#    upstream: "application-server:http"
